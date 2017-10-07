@@ -7,7 +7,7 @@ Computer :
 - SplitCam
 - Epoccam (aka kinoni)
 
-Mobile :
+Phone :
 - Epoccam
 
 # How-to
@@ -15,7 +15,8 @@ Mobile :
 - yarn start
 - get your ass to 127.0.0.1:3000
 - allow camera and select splitcam (chrome not working i think)
-- ** On your phone! **
+- ** On your phone!
 - Open Epoccam application
 - Get in same wifi as computer (hotspot is ok)
 - YOU ROCK!
+
