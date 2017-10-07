@@ -7,7 +7,10 @@ Computer :
 - SplitCam
 - Epoccam (aka kinoni)
 
-iPhone :
+iOS :
+- Epoccam
+
+Android :
 - Epoccam
 
 # How-to
