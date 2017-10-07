@@ -7,7 +7,7 @@ Computer :
 - SplitCam
 - Epoccam (aka kinoni)
 
-Mobile :
+iPhone :
 - Epoccam
 
 # How-to
