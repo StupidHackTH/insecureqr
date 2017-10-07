@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "insecureqr",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "instascan": "^1.0.0",
