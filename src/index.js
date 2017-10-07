@@ -19,7 +19,7 @@ class Scanner extends Component {
 
 		try {
 			const cameras = await Instascan.Camera.getCameras()
-		
+
 			if (cameras.length > 0) {
 				scanner.start(cameras[0])
 			} else {
@@ -32,23 +32,23 @@ class Scanner extends Component {
 
 	render = () => (
 		<div>
-		<div class="container">
-		<h1 class="tx-w text-center">HOW SECURE YOUR QR ?</h1>
-		<div class="row">
-			<div class="col">
+		<div className="container">
+		<h1 className="tx-w text-center">HOW SECURE YOUR QR ?</h1>
+		<div className="row">
+			<div className="col">
 				<video ref={ref => this.video = ref} />
-				<h1 class="btn-success">{this.state.logs[0]}</h1>
+				<h1 className="btn-success">{this.state.logs[0]}</h1>
 			</div>
-			<div class="col ">
+			<div className="col ">
 			{this.state.logs.map((log, index) =>
-				<div class="row rounded border border-success bg-w">
-					<div class="col-4">
+				<div className="row rounded border border-success bg-w">
+					<div className="col-4">
 						<QRCode value={log} key={index} />
 					</div>
-					<div class="col-8 text-center">
-						<button class="btn btn-success w100p" >ID : <span class="badge badge-primary">{log}</span></button>
-						<button class="btn btn-danger w100p">Print at PrintAt Print at Print</button>
-						<button class="btn btn-primary w100p">Download</button>
+					<div className="col-8 text-center">
+						<button className="btn btn-success w100p" >ID : <span className="badge badge-primary">{log}</span></button>
+						<button className="btn btn-danger w100p">Print at PrintAt Print at Print</button>
+						<button className="btn btn-primary w100p">Download</button>
 					</div>
 				</div>
 				)}
@@ -57,9 +57,9 @@ class Scanner extends Component {
 			</div>
 
 		</div>
-		<footer class="footer">
-	      <div class="container">
-	        <span class="text-muted">copynotright &copy; StupidHackathonTH.</span>
+		<footer className="footer">
+	      <div className="container">
+	        <span className="text-muted">copynotright &copy; StupidHackathonTH.</span>
 	      </div>
 	    </footer>
 	</div>
