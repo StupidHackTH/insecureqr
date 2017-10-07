@@ -47,7 +47,7 @@ class Scanner extends Component {
 					</div>
 					<div class="col-8 text-center">
 						<button class="btn btn-success w100p" >ID : <span class="badge badge-primary">{log}</span></button>
-						<button class="btn btn-danger w100p">Print at PrintAt Print at Print</button>
+						<button class="btn btn-danger w100p">Print at PrintAt</button>
 						<button class="btn btn-primary w100p">Download</button>
 					</div>
 				</div>
