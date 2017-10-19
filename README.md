@@ -6,7 +6,7 @@ Is QR-Code Secure ?
 
 Computer :
 - SplitCam
-- Epoccam (aka kinoni)
+- Epoccam 
 
 iOS :
 - Epoccam
